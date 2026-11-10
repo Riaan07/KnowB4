@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.csiq6823.knowb4"
-    compileSdk = 35
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.csiq6823.knowb4"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
 
@@ -19,10 +19,6 @@ android {
 
     buildTypes {
         release {
-            optimization {
-                enable = true
-                packageScope = setOf("androidx.**", "kotlin.**", "kotlinx.**")
-            }
         }
     }
     compileOptions {
