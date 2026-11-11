@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">KnowB4</string>
+    <string name="action_clear_history">Clear History</string>
+    <string name="blank_state">No scans recorded yet</string>
+    <string name="scan_meta_format">%1$s • via %2$s</string>
+    <string name="verdict_safe">SAFE</string>
+    <string name="verdict_threat">THREAT</string>
+    <string name="verdict_unknown">UNKNOWN</string>
+    <string name="no_browser">No web browser available</string>
+    <string name="security_advisory_format">Security Advisory: %1$s is flagged as %2$s</string>
+    <string name="security_advisory_subject">Security Advisory</string>
+    <string name="share_advisory_title">Share Security Advisory</string>
+    <string name="clear_history_title">Clear History</string>
+    <string name="clear_history_message">Are you sure you want to clear all scan history?</string>
+    <string name="clear_history_confirm">Clear</string>
+    <string name="toast_url_only">URL detected with no descriptive text</string>
 </resources>

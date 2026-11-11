@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="toolbar_green">#2E7D32</color>
+    <color name="screen_background">#F5F5F5</color>
+    <color name="meta_text">#757575</color>
+    <color name="body_text">#212121</color>
+    <color name="verdict_safe">#4CAF50</color>
+    <color name="verdict_threat">#F44336</color>
+    <color name="verdict_unknown">#FF9800</color>
+    <color name="link_blue">#1976D2</color>
+    <color name="threat_text">#C62828</color>
 </resources>

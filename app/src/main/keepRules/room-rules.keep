@@ -1,0 +1,8 @@
+#noinspection ShrinkerUnresolvedReference
+-keep class com.csiq6823.knowb4.Data.ThreatScan { *; }
+-keep class * extends androidx.room.RoomDatabase
+-keep @androidx.room.Entity class *
+-dontwarn androidx.room.paging.**
+
+# WorkManager instantiates workers reflectively
+-keep class com.csiq6823.knowb4.workers.** { *; }
